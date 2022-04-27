@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  min-width: 100vw;
+  min-height: 100vh;
+  background: rgb(25, 39, 74);
+  color: white;
+}
+
+.matrixBox{
+  display: inline-block;
+  width: 15vmin;
+  height: 15vmin;
+  border: 3px white solid;
+  vertical-align: middle;
+  font-size: 10vmin;
+}
